@@ -1,0 +1,174 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-name {
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+*, :after, :before {
+    box-sizing: border-box
+}
+
+.pull-left {
+    float: left
+}
+
+.pull-right {
+    float: right
+}
+
+.clearfix:after, .clearfix:before {
+    content: '';
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+    display: block
+}
+
+.clock:before,
+.count:after {
+    content: '';
+    position: absolute;
+}
+
+.clock-wrap {
+    margin: auto;
+    width: 240px;
+    height: 240px;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+}
+
+.clock {
+    top: 50%;
+    left: 50%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: -90px;
+    background-color: #D3D3D3;
+}
+
+.clock:before {
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-left: -60px;
+    border-radius: inherit;
+    background-color: #000000;
+    box-shadow: 0 0 15px rgba(0,0,0,.15), 0 0 3px rgba(255,255,255,.75) inset;
+}
+
+.count {
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    padding: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+}
+
+.count:after {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    position: relative;
+}
+
+.count.sec:after {
+    content: 'sec'
+}
+
+.count.min:after {
+    content: 'min'
+}
+
+.action {
+    margin: auto;
+    max-width: 200px;
+}
+
+.action .input {
+    margin-top: 30px;
+    position: relative;
+}
+
+.action .input-num {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 60px;
+}
+
+.action .input-btn {
+    top: 0;
+    right: 0;
+    color: #fff;
+    border: none;
+    border: none;
+    padding: 12px;
+    position: absolute;
+    border-radius: 60px;
+    background-color: #000000;
+    text-transform: uppercase;
+}
+
+.tbl {
+    display: table;
+    width: 100%
+}
+
+.tbl .col {
+    display: table-cell
+}

@@ -1,0 +1,53 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-name {
+    font-size: 28px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.header3 h3 {
+    font-size: 20px;
+    color: #000;
+}
+
+.importance ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #000;
+}
