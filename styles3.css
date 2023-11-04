@@ -50,6 +50,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .feedback-form {
@@ -76,4 +77,14 @@ header {
     padding: 10px 20px;
     cursor: pointer;
     width: 100%;
+}
+
+.sticky-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
