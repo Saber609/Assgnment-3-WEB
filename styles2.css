@@ -189,3 +189,7 @@ input {
     text-align: center;
     padding: 10px 0;
 }
+
+.navbar li:hover {
+    background-color: #333;
+}

@@ -91,7 +91,7 @@ h2 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    text-align: center; /* Center the text */
+    text-align: center;
 }
 
 .close {
@@ -109,7 +109,7 @@ h2 {
 }
 
 #myBtn {
-    margin-bottom: 20px; /* Add a bottom margin to the button */
+    margin-bottom: 20px;
 }
 
 .quiz-container {
@@ -135,4 +135,27 @@ h2 {
     padding: 10px;
     display: flex;
     align-items: center;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    color: green;
+}
+
+.navbar li:hover {
+    background-color: #333;
 }
